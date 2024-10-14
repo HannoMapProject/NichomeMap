@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="/icon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>山車マップ</title>
+        <script
+            type="module"
+            crossorigin
+            src="./assets/index-BzCe920q.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>貮丁目山車マップ (beta)</h1>
+            <p>現在位置は予定によるものです。</p>
+            <p>土曜日夜のみ底抜の運航予定です。</p>
+        </header>
+
+        <section id="map-section">
+            <form id="form-time">
+                <select name="day" id="select-day">
+                    <option value="0">11/2</option>
+                    <option value="1">11/3</option>
+                </select>
+                <select name="hour" id="select-hour">
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+                <select name="min" id="select-min">
+                    <option value="0">00</option>
+                    <option value="5">05</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                    <option value="55">55</option>
+                </select>
+            </form>
+        </section>
+
+        <footer>
+            <p>
+                マップが表示されない場合、マップの表示に失敗している可能性があります。
+            </p>
+            <p>地図出典：国土地理院ウェブサイト</p>
+        </footer>
+    </body>
+</html>
